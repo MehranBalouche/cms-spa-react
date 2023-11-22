@@ -4,15 +4,16 @@ import { BrowserRouter } from "react-router-dom";
 
 import App from "./App";
 import "bootstrap/dist/css/bootstrap.css";
-import "./custom.css"
+import "./custom.css";
+import "./cms.css";
 
-const root = ReactDOM.createRoot(document.querySelector("body"));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <React.StrictMode>
+  // <React.StrictMode>
     <BrowserRouter>
       <App />
     </BrowserRouter>
-  </React.StrictMode>
+  // </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function

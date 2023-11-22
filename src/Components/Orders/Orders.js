@@ -3,6 +3,6 @@ import ErrorBox from '../Errorbox/Errorbox'
 
 export default function Orders() {
   return (
-    <ErrorBox msg="هیچ سفارشی یافت نشد!"/>
+    <ErrorBox msg="هیچ سفارشی یافت نشد" />
   )
 }
